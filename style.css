@@ -907,7 +907,10 @@ noscript{
     transition-duration: .5s;
 }
 .dp img{
-    width: 300px;
+    /* width: 300px; */
+    width: 20vw;
+    height: 38vh;
+    margin-top: 10px;
 }
 .dp::before{
     content: "";
@@ -1193,8 +1196,12 @@ noscript{
 }
 .image-div img{
     height: 100%;
+    width: 31vw;
     /* border-top-left-radius:10px ; */
    
+}
+.image-div-phone img{
+    height: 100%;
 }
 .ProjectHeading{
     color: var(--color-white);

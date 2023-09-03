@@ -20,7 +20,7 @@ function playpause() {
     audio.pause();
    }
 
- else{
+ else {
      audio.play();
  }
   }
